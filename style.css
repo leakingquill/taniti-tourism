@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f8f8f8;
+}
+
+.box {
+    border: 2px solid #000;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.hero {
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 220px;
+    border: 2px solid #000;
+    padding: 15px;
+    background: #fff;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.footer {
+    text-align: center;
+}
