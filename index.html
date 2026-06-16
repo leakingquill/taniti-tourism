@@ -1,53 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Taniti Tourism</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taniti Tourism | Discover, Plan, Book</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+    <a class="logo" href="index.html">TANITI</a>
+    <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="activities.html">Explore</a>
+        <a href="lodging.html">Stay</a>
+        <a href="about.html">Eat</a>
+        <a href="transportation.html">Transport</a>
+        <a href="visitorinfo.html">FAQ</a>
+        <a href="design-documentation.html">UX Plan</a>
+    </nav>
+</header>
 
-<div class="box hero">
-    <h1>TANITI</h1>
-    <p>Discover Beaches • Rainforests • Volcano Adventures</p>
-    <a href="activities.html" class="button">Plan Your Trip</a>
-</div>
-
-<div class="box nav">
-    <a href="about.html">About</a>
-    <a href="lodging.html">Lodging</a>
-    <a href="activities.html">Things To Do</a>
-    <a href="transportation.html">Transportation</a>
-    <a href="visitor-info.html">Visitor Info</a>
-</div>
-
-<div class="box">
-    <h2>Explore Taniti</h2>
-
-    <div class="cards">
-        <div class="card">
-            <h3>About the Island</h3>
-            <p>Learn about Taniti's culture, history, beaches, and rainforest.</p>
-            <a href="about.html">Learn More</a>
-        </div>
-
-        <div class="card">
-            <h3>Where to Stay</h3>
-            <p>Explore hotels, resorts, hostels, and B&B accommodations.</p>
-            <a href="lodging.html">View Lodging</a>
-        </div>
-
-        <div class="card">
-            <h3>Things To Do</h3>
-            <p>Adventure, sightseeing, beaches, and nightlife.</p>
-            <a href="activities.html">Explore Activities</a>
-        </div>
+<section class="hero" aria-label="Yellow Leaf Bay hero image">
+    <div class="hero-content">
+        <h1>Discover Yellow Leaf Bay</h1>
+        <p>Plan a safe, family-friendly Taniti vacation with clear activities, transportation details, visitor essentials, and booking next steps.</p>
+        <a href="activities.html" class="button">Explore Activities</a>
+        <a href="booking-confirmation.html" class="button secondary">Preview Booking</a>
     </div>
-</div>
+</section>
 
-<div class="box footer">
-    FAQ | Contact | Maps | Emergency Info
-</div>
+<main id="main">
+    <section class="box">
+        <h2>Discover, Plan, Book</h2>
+        <div class="cards">
+            <article class="card">
+                <h3>Discover</h3>
+                <p>Browse beaches, rainforest adventures, volcano tours, Merriton Landing, museums, snorkeling, and family-friendly activities.</p>
+                <a class="button" href="activities.html">Explore</a>
+            </article>
+            <article class="card">
+                <h3>Plan</h3>
+                <p>Compare resorts, hotels, hostels, and bed-and-breakfast options for a 5-to-6-day trip.</p>
+                <a class="button" href="lodging.html">Find Lodging</a>
+            </article>
+            <article class="card">
+                <h3>Travel Confidently</h3>
+                <p>Review airport, cruise, bus, shuttle, bicycle, walking, safety, currency, and credit-card information before arrival.</p>
+                <a class="button" href="transportation.html">Transport & Safety</a>
+            </article>
+        </div>
+    </section>
 
-</body>  
+    <section class="box quick-grid" aria-label="Traveler essentials">
+        <div class="fact"><h3>Currency</h3><p>U.S. Dollars are accepted across Taniti.</p></div>
+        <div class="fact"><h3>Power</h3><p>120v outlets support North American travelers.</p></div>
+        <div class="fact"><h3>Mobile Ready</h3><p>Large 48x48 pixel touch targets support phone users.</p></div>
+        <div class="fact"><h3>Safety</h3><p>Use normal travel awareness in crowded tourist areas.</p></div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="visitorinfo.html">FAQ</a> | <a href="transportation.html">Safety</a> | <a href="design-documentation.html">UX Documentation</a>
+</footer>
+</body>
 </html>

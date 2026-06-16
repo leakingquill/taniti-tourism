@@ -2,121 +2,26 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Taniti User Flow Diagram</title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    background: white;
-    padding: 30px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.flow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.box {
-    border: 2px solid black;
-    padding: 15px 25px;
-    width: 220px;
-    text-align: center;
-    background: white;
-    font-weight: bold;
-}
-
-.arrow {
-    font-size: 30px;
-    margin: 10px 0;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 20px 0;
-}
-
-.small-box {
-    border: 2px solid black;
-    padding: 15px;
-    width: 180px;
-    text-align: center;
-    min-height: 70px;
-}
-
-.label {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taniti Low-Fidelity User Flow</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>Taniti Tourism Website User Flow</h1>
-
-<div class="flow">
-
-    <div class="box">HOME PAGE</div>
-
-    <div class="arrow">↓</div>
-
-    <div class="row">
-        <div class="small-box">
-            <div class="label">About Taniti</div>
-            History<br>
-            Culture<br>
-            Geography
-        </div>
-
-        <div class="small-box">
-            <div class="label">Lodging</div>
-            Hotels<br>
-            Resorts<br>
-            Hostels
-        </div>
-
-        <div class="small-box">
-            <div class="label">Things To Do</div>
-            Beaches<br>
-            Volcano Tours<br>
-            Rainforest Tours
-        </div>
-
-        <div class="small-box">
-            <div class="label">Transportation</div>
-            Air Travel<br>
-            Cruise Ships<br>
-            Local Transit
-        </div>
-
-        <div class="small-box">
-            <div class="label">Visitor Info</div>
-            FAQ<br>
-            Currency<br>
-            Emergency Info
-        </div>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header"><a class="logo" href="index.html">TANITI</a><nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="activities.html">Explore</a><a href="lodging.html">Stay</a><a href="about.html">Eat</a><a href="transportation.html">Transport</a><a href="visitorinfo.html">FAQ</a><a href="design-documentation.html">UX Plan</a></nav></header>
+<main id="main">
+<section class="box">
+    <h1>Low-Fidelity Wireframe Flow</h1>
+    <p>This diagram shows the redesigned Taniti flow built around Discover, Plan, and Book.</p>
+    <div class="flow">
+        <div class="flow-step"><span>1</span>Homepage<br>Yellow Leaf Bay Hero</div>
+        <div class="flow-step"><span>2</span>Explore<br>Rainforest, Beaches, Merriton Landing</div>
+        <div class="flow-step"><span>3</span>Activity Detail<br>Description, USD Price, Book Now</div>
+        <div class="flow-step"><span>4</span>Transport & Safety<br>Bus, Bike, Walking, Credit Cards</div>
+        <div class="flow-step"><span>5</span>Booking Confirmation<br>Mobile Summary</div>
     </div>
-
-    <div class="arrow">↓</div>
-
-    <div class="box">ATTRACTION DETAILS</div>
-
-    <div class="arrow">↓</div>
-
-    <div class="box">PLAN YOUR TRIP</div>
-
-    <div class="arrow">↓</div>
-
-    <div class="box">CONTACT / VISIT TANITI</div>
-
-</div>
-
+</section>
+</main>
+<footer class="footer"><a href="design-documentation.html">UX Documentation</a></footer>
 </body>
 </html>

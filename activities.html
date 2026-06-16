@@ -1,32 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Things To Do</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Taniti</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="box nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="lodging.html">Lodging</a>
-    <a href="transportation.html">Transportation</a>
-    <a href="visitor-info.html">Visitor Info</a>
-</div>
-
-<div class="box">
-    <h1>Things To Do</h1>
-
-    <div class="cards">
-        <div class="card">Volcano Tours</div>
-        <div class="card">Rainforest Adventures</div>
-        <div class="card">Snorkeling</div>
-        <div class="card">Fishing Charters</div>
-        <div class="card">Museums</div>
-        <div class="card">Nightlife</div>
-    </div>
-</div>
-
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+    <a class="logo" href="index.html">TANITI</a>
+    <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a class="active" href="activities.html">Explore</a>
+        <a href="lodging.html">Stay</a>
+        <a href="about.html">Eat</a>
+        <a href="transportation.html">Transport</a>
+        <a href="visitorinfo.html">FAQ</a>
+        <a href="design-documentation.html">UX Plan</a>
+    </nav>
+</header>
+<main id="main" class="two-column">
+    <section class="box">
+        <h1>Explore Taniti</h1>
+        <p>Activities are grouped by interest so visitors can quickly move from discovery to booking.</p>
+        <div class="cards">
+            <article class="card"><h3>Rainforest & Volcano</h3><p>Guided rainforest hikes, volcano tours, and zip-lining adventures.</p><a class="button" href="activity-detail.html">View Zip-lining Details</a></article>
+            <article class="card"><h3>Beaches</h3><p>Yellow Leaf Bay, snorkeling, swimming, fishing charters, and relaxing beach days.</p><a class="button" href="booking-confirmation.html">Book Snorkeling</a></article>
+            <article class="card"><h3>Merriton Landing</h3><p>Museums, local history, nightlife, restaurants, and family-friendly sightseeing.</p><a class="button" href="visitorinfo.html">See Visitor Tips</a></article>
+        </div>
+    </section>
+    <aside class="box essentials" aria-label="Traveler essentials">
+        <h2>Traveler’s Essentials</h2>
+        <p><strong>Currency:</strong> U.S. Dollar</p>
+        <p><strong>Power:</strong> 120v outlets</p>
+        <p><strong>Safety:</strong> Watch for pickpocketing in crowded areas.</p>
+        <p><strong>Language:</strong> English is common in tourist areas.</p>
+    </aside>
+</main>
+<footer class="footer"><a href="index.html">Home</a> | <a href="transportation.html">Transport & Safety</a></footer>
 </body>
 </html>
